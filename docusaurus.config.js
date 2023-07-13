@@ -1,7 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
+// @ts-ignore
 require('dotenv').config()
-
+// @ts-ignore
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Afaik.institute',
@@ -38,11 +39,15 @@ const config = {
       }),
     ],
   ],
-  themes: ['@docusaurus/theme-mermaid'],
+
 
   themeConfig:
   /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
       ({
+        colorMode: {
+          disableSwitch: true,
+          defaultMode: 'light',
+        },
         navbar: {
           hideOnScroll: true,
           items: [
@@ -64,26 +69,10 @@ const config = {
                   href: 'https://twitter.com/acid-info',
                   label: 'Twitter',
                 },
-                {
-                  href: 'https://discord.gg/<DISCORD_HANDLE>',
-                  label: 'Discord',
-                },
-                {
-                  href: '/',
-                  label: 'Docs',
-                },
-                {
-                  href: 'https://github.com/<GITHUB_HANDLE>',
-                  label: 'Github',
-                },
               ],
             },
             {
               items: [
-                {
-                  href: '/',
-                  label: 'Contact us',
-                },
                 {
                   href: 'https://jobs.status.im/',
                   label: 'Work with us',
