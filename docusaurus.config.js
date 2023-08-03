@@ -66,7 +66,7 @@ const config = {
             {
               items: [
                 {
-                  href: 'https://twitter.com/acid-info',
+                  href: 'https://twitter.com/ac1d_info',
                   label: 'Twitter',
                 },
               ],
