@@ -40,6 +40,23 @@ const config = {
     ],
   ],
 
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'about',
+        routeBasePath: '/about',
+        path: 'about',
+      },
+    ],
+    [
+      '@acid-info/docusaurus-fathom',
+      {
+        siteId: 'DIIOE',
+        scriptUrl: 'https://fathom.status.im/tracker.js',
+      },
+    ],
+  ],
 
   themeConfig:
   /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
