@@ -49,13 +49,6 @@ const config = {
         path: 'about',
       },
     ],
-    [
-      '@acid-info/docusaurus-fathom',
-      {
-        siteId: 'DIIOE',
-        scriptUrl: 'https://fathom.status.im/tracker.js',
-      },
-    ],
   ],
 
   themeConfig:
