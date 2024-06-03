@@ -40,17 +40,6 @@ const config = {
     ],
   ],
 
-  plugins: [
-    [
-      "@docusaurus/plugin-content-docs",
-      {
-        id: "about",
-        routeBasePath: "/about",
-        path: "about",
-      },
-    ],
-  ],
-
   themeConfig:
     /** @type {import('@acid-info/logos-docusaurus-preset').ThemeConfig} */
     ({
