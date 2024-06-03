@@ -1,0 +1,15 @@
+{
+    "timestamp": "2024-06-03T13:08:56Z",
+    "git": {
+        "commit": "101b47b706f1b8db5d5d567933a139d1e5d08cfa",
+        "branch": "origin/deploy-via-caddy-git",
+        "url": "git@github.com:acid-info/afaik.institute.git"
+    },
+    "build": {
+        "id": "22",
+        "number": "22",
+        "name": "website/dev.afaik.institute",
+        "slave": "linux-01",
+        "url": "https://ci.infra.status.im/job/website/job/dev.afaik.institute/22/"
+    }
+}
