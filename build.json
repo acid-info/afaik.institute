@@ -1,15 +1,15 @@
 {
-    "timestamp": "2024-06-06T11:09:30Z",
+    "timestamp": "2024-06-07T13:45:08Z",
     "git": {
-        "commit": "9547ea51de07e7861208130140c5a5efb5bcf2fb",
+        "commit": "d512a83d4f445527f01e116305fcdff2bed273e6",
         "branch": "origin/master",
         "url": "git@github.com:acid-info/afaik.institute.git"
     },
     "build": {
-        "id": "23",
-        "number": "23",
+        "id": "24",
+        "number": "24",
         "name": "website/afaik.institute",
         "slave": "linux-01",
-        "url": "https://ci.infra.status.im/job/website/job/afaik.institute/23/"
+        "url": "https://ci.infra.status.im/job/website/job/afaik.institute/24/"
     }
 }
